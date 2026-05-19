@@ -17,12 +17,11 @@ causing numerical instability. Batch normalization layers were added to the TD-N
 and TD-NN-2 modules to partially mitigate this issue, but the root cause in WaveAtt
 was not resolved. Refer to my report for further details.
 
-Additionally, the original paper uses 18 wavelet families, while this implementation
-uses only 8, due to memory constraints.
-
 Despite these limitations, the model is functional and produces reasonable results
 on some datasets. A full discussion of the experimental outcomes is provided in the
 accompanying report.
+
+It's performance are worse compared to a ROCKET algorithm.
 
 ---
 
